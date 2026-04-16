@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+
+.hero {
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.img-galeria {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.img-galeria:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(220, 20, 60, 0.3);
+}
+
+
+.lead {
+    font-size: 1.18rem;
+    color: #333;
+}
+
+.display-5 {
+    font-weight: 700;
+}
+
+
+footer {
+    margin-top: auto;
+}
+
