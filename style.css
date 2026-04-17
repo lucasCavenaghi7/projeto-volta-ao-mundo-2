@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,57 +7,32 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
 }
-
-
-.hero {
-    background-attachment: fixed;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
 
 .img-galeria {
-    height: 300px;
+    height: 240px;
     object-fit: cover;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
+    transition: transform 0.3s;
 }
 
 .img-galeria:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 25px rgba(220, 20, 60, 0.3);
+}
+
+.typing-container h2 {
+    min-height: 70px;
+    border-right: 4px solid #fff;
+    display: inline-block;
+    animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
 }
 
 
-.carousel-item img {
-    height: 520px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 8px;
-    padding: 8px 12px;
-}
-
-
-.lead {
-    font-size: 1.18rem;
-    color: #333;
-}
-
-.display-5 {
-    font-weight: 700;
-}
-
-
-footer {
-    margin-top: auto;
-}
-
+.table th {
+    background-color: #dc3545;
+    color: white;
+}   
