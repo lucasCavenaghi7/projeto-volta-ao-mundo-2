@@ -33,6 +33,19 @@ body {
 }
 
 
+.carousel-item img {
+    height: 520px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+
 .lead {
     font-size: 1.18rem;
     color: #333;
